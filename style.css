@@ -1,0 +1,15 @@
+/* CSS STYLESHEET */
+
+body {
+    background-color: #C8102E;
+    color: white;
+}
+
+
+header img {
+    width: 65px;
+    height: auto;
+    border-radius: 5%;
+    border-color: white;
+    border-style:double;
+}
