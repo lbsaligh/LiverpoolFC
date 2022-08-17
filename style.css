@@ -1,15 +1,49 @@
 /* CSS STYLESHEET */
 
+/* * {
+    border: 2px solid white;
+} */
+
+
 body {
     background-color: #C8102E;
     color: white;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
 
-header img {
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 55px;
+    font-size: 1.35rem;
+    color: white;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+a:link {
+    color: #C8102E
+
+}
+
+a:visited {
+    color: #C8102E;
+}
+
+.nav5 {
+    margin-right: 50px;
+}
+
+.logo-image {
     width: 65px;
-    height: auto;
-    border-radius: 5%;
-    border-color: white;
-    border-style:double;
+    height: 90px;
+    margin-left: 50px;
 }
